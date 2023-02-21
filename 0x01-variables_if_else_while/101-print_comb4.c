@@ -19,6 +19,7 @@ for (z = y + 1; z <= '9'; z++)
 {
 
 for (x = z + 1; x <= '9'; x++)
+{
 if ((z != y) != x)
 {
 putchar(y);
