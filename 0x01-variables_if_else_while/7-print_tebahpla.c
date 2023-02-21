@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - A program that print lowercase and uppercase vi alphabets
+* main - A program that print lowercas alphabets in reverse order.
 * Return: Always (Success)
 */
 int main(void)
