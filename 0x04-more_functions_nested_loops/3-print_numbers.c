@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - It print numbers from 0 to 9
- * Return: The number 0 to 9
+ * Return: The number since from 0 to 9
  */
 
 void print_numbers(void)
