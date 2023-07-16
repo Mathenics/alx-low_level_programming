@@ -1,13 +1,18 @@
 #include <stdio.h>
-/*
- * A program that prints a string of code
+/**
+ * main - Entry point
  *
- * Return (0): always
+ * Description: A program that prints a string of code
+ *
+ * Return: Always 0 (success)
  */
 
-int main()
-	{
-		puts("\"Programming is like building a multilingual puzzle\n");
+int main(void)
 
-		return (0);
-	}
+{
+
+	puts("\"Programming is like building a multilingual puzzle");
+
+	return (0);
+
+}
