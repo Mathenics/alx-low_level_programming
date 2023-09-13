@@ -3,3 +3,4 @@ functions & nested loops
 1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 2. 10x aplhabet
 3. islower
+4. isalpha
