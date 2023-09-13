@@ -4,3 +4,4 @@ functions & nested loops
 2. 10x aplhabet
 3. islower
 4. isalpha
+5. sign
