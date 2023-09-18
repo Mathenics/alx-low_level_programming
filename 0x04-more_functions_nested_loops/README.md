@@ -9,3 +9,4 @@ more_functions_nested_loops
 7. I feel like I am diagonally parked in a parallel universe
 8. You are so much sunshine in every square inch
 9. Fizz-Buzz
+10. Triangles
