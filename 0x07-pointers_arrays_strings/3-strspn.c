@@ -1,26 +1,32 @@
 #include "main.h"
 
 /**
- * _strchr - Entry point
+ * _strspn - Entry point
  * Desc: Entry
  *@s: pointer
- *@c: string
+ *@accept: pointer
  * Return: Always 0 (Success)
  */
-char *_strchr(char *s, char c)
+unsigned int _strspn(char *s, char *accept)
 {
 	int i;
+	int j;
+	unsigned int count = 0;
 
-	for (i = 0; s[i] != '\0' ; s++)
+	for (i = 0 ; s[i] ; i++)
 	{
-		if (s[i] == c)
+		for (j = 0 ; accept[j] ; j++)
 		{
-			return (s + i);
+			if (s[i] == accept[j])
+			{
+				count++;
+				break;
+			}
+		}
+		if (s[i] != accept[j])
+		{
+			break;
 		}
 	}
-	if (s[i] == c)
-	{
-		return (s + i);
-	}
-	return (0);
+	return (count);
 }
