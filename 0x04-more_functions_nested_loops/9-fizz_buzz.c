@@ -2,6 +2,7 @@
 
 /**
  * Main - Print fizz buzz program
+ * @x: number to be printed out
  * Return: Always 0 Success
  */
 
