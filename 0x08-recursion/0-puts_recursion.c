@@ -1,4 +1,4 @@
-#include "rmain.h"
+#include "main.h"
 #include "_putchar.c"
 
 void _puts_recursion(char *s)
