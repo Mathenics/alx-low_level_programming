@@ -1,5 +1,5 @@
 #include "main.h"
-#include "_putchar.c"
+
 
 /**
  * factorial - function to produce factorial of a number
